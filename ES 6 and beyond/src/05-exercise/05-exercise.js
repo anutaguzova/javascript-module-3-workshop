@@ -25,7 +25,7 @@
 
 // Finish the code of the function
 function exercise05(arr) {
-    let [a, b = "DEFAULT", c] = arr;
+    const [a, b = "DEFAULT", c] = arr;
     return b
 }
 

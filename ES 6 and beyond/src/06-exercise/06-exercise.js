@@ -27,8 +27,8 @@ function exercise06() {
         averageGrade: 6.6,
     };
 
-    const {firstName, lastName, ...rest} = user;
-
+    const {lastName, firstName, ...rest} = user;
+// the same name of keys, but it is not important the place of keys
     return rest
 }
 
