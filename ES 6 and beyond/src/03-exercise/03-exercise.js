@@ -25,7 +25,9 @@
  */
 
 // Finish the code of the function
-const exercise03 = () => {};
+const exercise03 = (zero, one, ...others) => {
+    return others;
+};
 
 // Don’t change the code bellow this line
 export default exercise03;
